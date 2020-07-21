@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="8dp"
+    app:cardElevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/donald"
+            android:id="@+id/image"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Title"
+            android:textColor="@color/Black"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/album_id"
+                android:textSize="15sp"
+                android:textColor="@color/Black"
+                android:text="Album"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id"
+                android:textSize="15sp"
+                android:textColor="@color/Black"
+                android:text="Id"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

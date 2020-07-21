@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="Black">#000000</color>
+    <color name="Red">#e10000</color>
+    <color name="White">#ffffff</color>
+    <color name="Blue">#3F51B5</color>
+    <color name="theme_divider">#B6B6B6</color>
+    <color name="Light_blue">#19661C</color>
+    <color name="orange">#FFA500</color>
+    <color name="trans">#80000000</color>
+    <color name="light_grey">#80B6B6B6</color>
+    <color name="green">#268f18</color>
+    <color name="red">#D82618</color>
+    <color name="grey">#393e46</color>
+    <color name="not_active_grey">#cec6c7</color>
+    <color name="non_active_profile_color">#848287</color>
+    <color name="non_active_blue">#3b84d0</color>
+    <color name="active_status_text_color">#53575e</color>
+    <color name="active_hash_tag_color">#5f9ce0</color>
+    <color name="active_clock">#0f71d3</color>
+    <color name="active_profile_color">#b3e5e7</color>
+</resources>
